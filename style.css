@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext");
+
+body{
+    /* padding: 1rem 5rem; */
+    margin: 0;
+    background-color: #F6F9FD;
+
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: space-between; /* Separar el logo y la barra de navegación */
+    align-items: center;
+    position: relative;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.nav a{
+    padding: 0 1rem;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.nav a:hover{
+    padding: 0 1rem;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #FF556E;
+}
+
+.containerHeader a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 10rem;
+    height: 10rem;
+    padding: 0 26rem 0 0;
+}
+
+.buttonNav{
+    background: none;
+    border: 3px solid #FF556E;
+    border-radius: 15px; 
+    padding: 1rem 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submenu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+}
+
+.submenu a {
+    /* padding: 0 1rem; */
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.submenuHover {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.submenuHover:hover .submenu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.submenuHover:hover .submenu a{
+    
+}
+
+.seccionPrincipal h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    padding: 0 0 2rem 0;
+    
+}
+
+.seccionPrincipal h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    color: grey;
+    padding: 0 6rem;
+    margin: 0;
+}
+
+.main{}
+
+.seccionPrincipal{
+    
+}
+
+.buttonPrincipal{
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+padding: 2rem 24rem;
+}
+
+.buttonPrincipal a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700
+    
+    }
+
+.appleIcono{
+    width: 2rem;
+    height: 2rem;
+    padding: 0 10%;
+    filter: invert(1) hue-rotate(180deg);
+}
+.buttonApple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF556E;
+    border-radius: 30px; 
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+.googleIcono{
+    width: 2rem;
+    height: 2rem;
+    padding: 0 10%;
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.buttonGoogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF556E;
+    border-radius: 30px; 
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.seccionImgs{
+
+}
+
+.imgMobile{
+    width: 50rem;
+    height: auto;
+}
+
+.imgMobileDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.iconsMobilePrincipal{
+    width: 3rem;
+    height: 3rem;
+    background-color: #E8E3F9;
+    border-radius: 5rem;
+    padding: 2rem;
+}
+
+.imgIcons{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8rem;
+    flex-wrap: wrap;
+    
+}
+
+.imgIconCohete{
+    display: flex;
+    padding: 2rem 0 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgIconCohete p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.iconsMobilePrincipalCohete{
+    width: 3rem;
+    height: 3rem;
+    background-color: #E8E3F9;
+    border-radius: 5rem;
+    padding: 2rem;
+}
+
+.textIcons{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.textIcons p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Seccion de Description  App*/
+
+.containerDescription{
+    display: flex;
+    justify-content: space-around;
+    padding: 8rem 1rem 8rem 1rem;
+    flex-direction: row;
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+    
+
+}
+
+.imgDescription{
+    width: 30rem;
+    height: auto;
+}
+
+.divImgDescription{
+    display: flex;
+    padding: 0 2rem 0 0;
+    
+    
+
+}
+
+.textDescription{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    
+}
+
+.textDescription h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    
+}
+
+.textDescription ul{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #777777;
+    padding: 0 0 2rem 0;
+    
+
+}
+
+.textDescription ul li{
+    padding: 1rem 0 0 0;
+}
+
+.textDescription p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #777777;
+    margin: 0;
+    padding: 1rem 0 0 0;
+    
+}
+
+p .textDescription{
+    white-space: normal;
+}
+
+.buttonDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF556E;
+    border-radius: 30px; 
+    padding: 1rem 0rem;
+    cursor: pointer;
+    text-align: center;
+    width: 10rem;
+    flex-wrap: wrap;
+}
+
+.buttonDescription a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    
+    }
+
+    /* Contenedor Date */
+
+.containerDate{
+    display: flex;
+    background-color: #E8EFF6;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 8rem 1rem 8rem 1rem;
+}
+.imgDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 8rem 0 0;
+}    
+
+.imgDate img {
+    width: 30rem;
+    height: 36rem;
+}
+
+.imgCheckIcono{
+    width: 1rem;
+    height: 1rem;
+    
+}
+
+.iconoDate{
+    width: 1rem;
+    height: 1rem;
+}
+
+.textDate{
+    padding: 0 5rem 2rem 8rem;
+}
+
+.itemsDate{
+    display: flex;
+    align-items: center;
+}
+
+.itemsDate img{
+    padding: 0 1rem 0 0;
+}
+
+.itemsDate p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #777777;
+    margin: 0;
+    padding: 1rem 0 0 0;
+}
+
+.parrafoDate{
+    padding: 2rem 0 0 0;
+}
+
+.parrafoDate p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #777777;
+    margin: 0;
+}
+
+.optionsMenuDate{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10rem;
+}
+
+/* Testimonials */
+
+.userTestimonials{
+    display: flex;
+    background-color: #F6F9FD;
+}
