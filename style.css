@@ -78,7 +78,6 @@ body{
 }
 
 .submenuHover:hover .submenu{
-    list-style: none;
     display: flex;
     flex-direction: column;
 }
@@ -243,20 +242,20 @@ padding: 2rem 24rem;
     padding: 8rem 1rem 8rem 1rem;
     flex-direction: row;
     align-items: center;
-    
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; 
     
 
 }
 
 .imgDescription{
-    width: 30rem;
+    width: 20rem;
     height: auto;
 }
 
 .divImgDescription{
     display: flex;
     padding: 0 2rem 0 0;
+    max-width: 50%;
     
     
 
@@ -266,7 +265,7 @@ padding: 2rem 24rem;
     display: flex;
     flex-direction: column;
     padding: 0 4rem;
-    
+    max-width: 50%;
 }
 
 .textDescription h2{
